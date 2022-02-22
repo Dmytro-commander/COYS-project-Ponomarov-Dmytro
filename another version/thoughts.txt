@@ -1,0 +1,91 @@
+bootstrap form from validation, transformed into phone put from
+
+
+<div class="input-group mb-3">
+            <input type="text" class="form-control" placeholder="+380 _ _  _ _ _  _ _  _ _" aria-label="Recipient's username" aria-describedby="basic-addon2">
+            <div class="input-group-append">
+              <button class="btn btn-outline-secondary" type="button">ЗАМОВИТИ</button>
+            </div>
+          </div>
+
+<form  action="#" class="form">
+            <div class="block_f">
+            <label><span>Для індувідуального пошиву, залишіть свій номер</span><p><input type="tel" id="phone" maxlength="13"></p>
+            <p><input type="submit" name="submit" value="ЗАМОВИТИ"></p></label>
+        </div>
+        </form>
+
+
+        <div class="inst">
+        <a href="#"><img src="src/image/Insta.png" alt="Instagram"></a>
+    </div>
+    <div class="face">
+        <a href="#"><img src="src/image/Facebook.png" alt="Facebook"></a>
+    </div>
+    <div class="overview">Догляд</div>
+    <div class="brand">про бренд</div>
+    <div class="look">Lookbooks</div>
+    <div class="arrow">
+        <a href="#"><img src="src/image/arrow.png" alt="arrow to the beginning"></a>
+    </div>
+
+    .footer_list {
+    list-style: none;
+    text-decoration: none;
+    display: flex;
+    flex-direction: row;
+}
+
+.inst {
+    width: 17px;
+    height: 17px;
+    margin-top: 36px;
+}
+
+.face {
+    width: 17px;
+    height: 17px;
+    margin-top: 36px;
+    margin-left: 19px;
+}
+
+.overview {
+    font-size: 12px;
+    line-height: 21px;
+    margin-top: 36px;
+    margin-left: 32px;
+    letter-spacing: 0.2em;
+    text-transform: uppercase;
+    color: #58595B;
+}
+
+.brand {
+    width: 85px;
+    height: 21px;
+    font-size: 12px;
+    line-height: 21px;
+    letter-spacing: 0.2em;
+    /* margin-top: 36px;
+    margin-left: 32px; */
+    color: #58595B;
+}
+
+.brand_text {
+    text-align: justify;
+}
+
+.look {
+    margin-top: 36px;
+    margin-left: 28px;
+}
+
+.arrow {
+    width: 48px;
+    height: 48px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-top: 20px;
+    margin-left: 964px;
+    transition: .5s;
+    }
